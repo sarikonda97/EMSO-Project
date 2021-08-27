@@ -1,0 +1,254 @@
+{
+	"info": {
+		"_postman_id": "bc38b653-7f4f-4c15-8071-c7d2776c7a62",
+		"name": "EMSO Secure Rest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/data/getDataByObdIdAndTimestampRange?obd_id=10&start_time=1628579225&end_time=1629314729&response_type=csv",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjMwMDgxMDgwLCJleHAiOjE2MzA2ODU4ODB9.boFzOcQOUqhk5pRDcsa5a7HGGG-TMtaYU0SVvXPqIv-FYQYAUfTMeLJr_EuvR5Ittm0y0nu-Cu3mFeyWA889ww",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/data/getDataByObdIdAndTimestampRange?obd_id=10&start_time=1628579225&end_time=1629314729&response_type=csv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"data",
+						"getDataByObdIdAndTimestampRange"
+					],
+					"query": [
+						{
+							"key": "obd_id",
+							"value": "10"
+						},
+						{
+							"key": "start_time",
+							"value": "1628579225"
+						},
+						{
+							"key": "end_time",
+							"value": "1629314729"
+						},
+						{
+							"key": "response_type",
+							"value": "csv"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/data/getDataByTimestampRange?start_time=1628579225&end_time=1629314729&response_type=csv",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjMwMDgxMDgwLCJleHAiOjE2MzA2ODU4ODB9.boFzOcQOUqhk5pRDcsa5a7HGGG-TMtaYU0SVvXPqIv-FYQYAUfTMeLJr_EuvR5Ittm0y0nu-Cu3mFeyWA889ww",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/data/getDataByTimestampRange?start_time=1628579225&end_time=1629314729&response_type=csv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"data",
+						"getDataByTimestampRange"
+					],
+					"query": [
+						{
+							"key": "start_time",
+							"value": "1628579225"
+						},
+						{
+							"key": "end_time",
+							"value": "1629314729"
+						},
+						{
+							"key": "response_type",
+							"value": "csv"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/data/getDataByObdId?obd_id=10&response_type=csv",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjMwMDgxMDgwLCJleHAiOjE2MzA2ODU4ODB9.boFzOcQOUqhk5pRDcsa5a7HGGG-TMtaYU0SVvXPqIv-FYQYAUfTMeLJr_EuvR5Ittm0y0nu-Cu3mFeyWA889ww",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/data/getDataByObdId?obd_id=10&response_type=csv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"data",
+						"getDataByObdId"
+					],
+					"query": [
+						{
+							"key": "obd_id",
+							"value": "10"
+						},
+						{
+							"key": "response_type",
+							"value": "csv"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/data/getAllData?response_type=json",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjMwMDgxMDgwLCJleHAiOjE2MzA2ODU4ODB9.boFzOcQOUqhk5pRDcsa5a7HGGG-TMtaYU0SVvXPqIv-FYQYAUfTMeLJr_EuvR5Ittm0y0nu-Cu3mFeyWA889ww",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/data/getAllData?response_type=json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"data",
+						"getAllData"
+					],
+					"query": [
+						{
+							"key": "response_type",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/users/me",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjMwMDgxMDgwLCJleHAiOjE2MzA2ODU4ODB9.boFzOcQOUqhk5pRDcsa5a7HGGG-TMtaYU0SVvXPqIv-FYQYAUfTMeLJr_EuvR5Ittm0y0nu-Cu3mFeyWA889dasjh",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/users/me",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/auth/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"email\": \"abediasl@ualberta.ca\",\r\n\t\"password\": \"emso@123\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/auth/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"auth",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"Hamidreza\",\r\n\t\"email\": \"abediasl@ualberta.ca\",\r\n\t\"password\": \"emso@123\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
