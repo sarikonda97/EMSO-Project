@@ -1,0 +1,1 @@
+java -Xmx200m -jar C:\Users\emlgroup\Desktop\Secure API efforts\spring-security-jwt\target\emsoSecureRestClient-0.0.1-SNAPSHOT.jar
